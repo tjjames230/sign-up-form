@@ -1,3 +1,10 @@
+:root {
+  --main-font: "Poppins", Helvetica, sans-serif;
+  --font-light: 100;
+  --font-regular: 400;
+  --font-bold: 700;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,21 +16,31 @@ body {
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  font-family: var(--main-font);
 }
 
 aside {
-  background-color: #0ee660;
+  background: linear-gradient(#0ee660, #06923c);
   grid-column: 1/2;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 aside > img {
-  height: 500px;
+  max-height: 400px;
+  max-width: 75%;
 }
 
 main {
   background-color: gray;
   grid-column: 2/4;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+  padding-bottom: 50px;
+  font-weight: var(--font-light);
 }
