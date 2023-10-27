@@ -6,4 +6,17 @@
 
 body {
   line-height: 1.25;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#image-ctn {
+  background-color: lightblue;
+  grid-column: 1/2;
+}
+
+#content-ctn {
+  background-color: gray;
+  grid-column: 2/4;
 }
