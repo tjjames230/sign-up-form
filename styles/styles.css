@@ -63,7 +63,9 @@ h1 {
 form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
+  gap: 75px;
+  row-gap: 25px;
+  max-width: 500px;
 }
 
 label {
@@ -74,7 +76,6 @@ label {
 }
 
 input {
-  width: 50%;
   background: none;
   border: none;
   border-bottom: 1px solid white;
