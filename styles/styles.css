@@ -88,9 +88,9 @@ input {
 
 button {
   padding: 10px;
-  width: 15%;
+  width: 70%;
   background-color: hsl(143, 89%, 48%);
-  color: white;
+  color: rgb(0, 0, 0);
   border: none;
   font-family: var(--main-font);
   font-weight: var(--font-bold);
@@ -101,4 +101,5 @@ button {
 button:hover {
   background: none;
   cursor: pointer;
+  color: white;
 }
